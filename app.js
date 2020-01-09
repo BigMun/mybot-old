@@ -1,6 +1,7 @@
 const quickcord = require("quickcord")
+const dotenv = require('dotenv').config();
 
-const command = new quickcord.Client('NjYzODc0NjY0NTg1NjI1NjAw.XhZ-Cw.mN4ENFsyVI_FSSD77dxuT3ozgt0', '!');
+const command = new quickcord.Client(process.env.TOKEN, '!');
 
 command.on('loaded', console.log);
 
