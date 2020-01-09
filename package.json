@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "nodemon": "^2.0.2",
     "quickcord": "^2.1.3"
   }
