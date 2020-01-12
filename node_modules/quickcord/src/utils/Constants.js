@@ -1,0 +1,3 @@
+exports.Events = {
+    LOADED: "loaded"
+};
