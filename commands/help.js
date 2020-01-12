@@ -4,20 +4,18 @@ module.exports = {
     call: (res, args) => {
 
         const embed = new Quickcord.Embed({
-            title:'help',
-            description:'here you go sweetheart',
+            title:'Help',
+            description:'Here you go sweetheart',
             color:'#ff1100',
             fields:[
-                { name: '!keelan', value: 'shows a message right from big keelan', inline: false},
-                { name: '!message <message>', value: 'sends a message in the channel', inline: false},
-                { name: '!molest <tag>', value: 'try it!', inline: false},
+                { name: '!keelan', value: 'Hows a message right from big keelan', inline: false},
+                { name: '!message <message>', value: 'Sends a message in the channel', inline: false},
+                { name: '!dungle <tag>', value: 'Try it!', inline: false},
                 { name: '!ping', value: 'pong!', inline: false},
                 { name: '!pm <tag> <message>', value: 'DMs a member', inline: false},
-                { name: '!purge <amount>', value: 'deletes messages', inline: false}
+                { name: '!purge <amount>', value: 'Deletes messages', inline: false}
              ]
         })
-
-
 
         res.channel.send(embed)
 
