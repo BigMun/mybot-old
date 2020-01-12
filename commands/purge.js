@@ -24,7 +24,7 @@ module.exports = {
         // Bulk delete
         res.channel.bulkDelete(args[0])
         .then(() => {
-            res.reply(`Successfully raped ${args[0]} messages!`)
+            res.reply(`Successfully deleted ${args[0]} messages!`)
             .then(message => deleteMessage(message, 5000));
         })
         .catch(err => {
