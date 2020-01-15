@@ -3,6 +3,6 @@ module.exports = {
     call: (res, args) => {
         res.delete()
         
-        res.channel.send('This is Keelan, He voted Brexit, Be like Keelan.')
+        res.channel.send('Keelan here, I just wanted to stop by and say that you are an absolute shagger, except David.')
     }
 };

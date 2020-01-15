@@ -1,4 +1,3 @@
-
 module.exports = {
     name: "message",
     call: (res, args) => {
