@@ -15,7 +15,10 @@ module.exports = {
                 { name: '!ping', value: 'pong!', inline: false},
                 { name: '!pm <tag> <message>', value: 'DMs a member', inline: false},
                 { name: '!purge <amount>', value: 'Deletes messages', inline: false},
-                { name: '!quote / !q', value: 'Shows a random quote', inline: false}
+                { name: '!quote / !q', value: 'Shows a random quote', inline: false},
+                { name: '!donald / !trump', value: 'Shows a random quote from Donald Trump', inline: false},
+                { name: '!nsfw / !nsfw <type>', value: 'Shows an Not Safe For Work image', inline: false},
+                { name: '!nsfwhelp', value: 'Shows nsfw types', inline: false}
              ]
         })
 
