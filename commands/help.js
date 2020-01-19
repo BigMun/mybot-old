@@ -14,7 +14,8 @@ module.exports = {
                 { name: '!dungle <tag>', value: 'Try it!', inline: false},
                 { name: '!ping', value: 'pong!', inline: false},
                 { name: '!pm <tag> <message>', value: 'DMs a member', inline: false},
-                { name: '!purge <amount>', value: 'Deletes messages', inline: false}
+                { name: '!purge <amount>', value: 'Deletes messages', inline: false},
+                { name: '!quote / !q', value: 'Shows a random quote', inline: false}
              ]
         })
 
